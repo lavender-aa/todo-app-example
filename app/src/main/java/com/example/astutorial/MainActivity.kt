@@ -73,7 +73,6 @@ class MainActivity : AppCompatActivity() {
 
         // if it does exist, get the data from it
         file.bufferedReader().use { reader ->
-            var line: String = ""
             var name: String = ""
             var checked: String = ""
             var list: MutableList<Todo> = mutableListOf()
